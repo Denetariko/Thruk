@@ -1,21 +1,21 @@
 ﻿[%
   locale_name          = 'spanish';      # language name should be in english
-  reportDateTimeFormat = '%d-%m-%Y  %H:%M:%S';
-  reportDateFormat     = '%d-%m-%Y';
+  reportDateTimeFormat = '%d/%m/%Y  %H:%M:%S';
+  reportDateFormat     = '%d/%m/%Y';
   weekAbbr             = 'Sem.';
   monthNames           = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
   dayNames             = ['Lun','Mar','Mie','Jue','Vie','Sab','Dom'];
   translations         = {
 # keep those personal names
-    'Up'                                    => 'Up',
-    'Down'                                  => 'Down',
-    'Unreachable'                           => 'Unreachable',
+    'Up'                                    => 'Arriba',
+    'Down'                                  => 'Abajo',
+    'Unreachable'                           => 'No Alcanzable',
     'Ok'                                    => 'Ok',
-    'Warning'                               => 'Warning',
-    'Unknown'                               => 'Unknown',
-    'Critical'                              => 'Critical',
-    'Host:'                                 => 'Host:',
-    'Service:'                              => 'Service:',
+    'Warning'                               => 'Aviso',
+    'Unknown'                               => 'Desconocido',
+    'Critical'                              => 'Critico',
+    'Host:'                                 => 'Equipo:',
+    'Service:'                              => 'Servicio:',
 
 # translated patterns
     'Hostgroup:'                            => 'Grupo de Equipos:',
